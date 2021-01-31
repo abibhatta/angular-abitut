@@ -1,19 +1,13 @@
   <div *ngFor="let sample of samples">
   <h3>
       <a [title]="sample.name + ' details'" [routerLink]="['/products', product.id]">
-      {{ product.name }}
+      {{ sample.name }}
     </a>
   </h3>
-  <p *ngIf="product.description">
-    Description: {{ product.description }}
+  <p *ngIf="sample.description">
+    Description: {{ sample.description }}
   </p>
-  <button (click)="share()">
-    Share
-  </button>
-  <app-product-alerts
-  [product]="product"
-  (notify)="onNotify()">
-</app-product-alerts>
+  
 </div>
 
   
