@@ -14,7 +14,7 @@ import { SampleComponent } from './sample/sample.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: SampleComponent },
-      { path: 'product', component: ProductDemoModule }
+      { path: 'phones', component: ProductDemoModule }
     ])
   ],
   declarations: [
