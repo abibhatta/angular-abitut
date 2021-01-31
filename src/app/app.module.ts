@@ -14,12 +14,12 @@ import { SampleComponent } from './sample/sample.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: SampleComponent }
-    ])
+    ]),
+    ProductDemoModule
   ],
   declarations: [
     AppComponent,
-    SampleComponent,
-    ProductDemoModule
+    SampleComponent
   ],
   bootstrap: [
     AppComponent
