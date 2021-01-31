@@ -13,7 +13,8 @@ import { SampleComponent } from './sample/sample.component';
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: SampleComponent }
+      { path: '', component: SampleComponent },
+      { path: 'product', component: ProductDemoModule }
     ]),
     ProductDemoModule
   ],
