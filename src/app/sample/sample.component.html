@@ -1,6 +1,7 @@
-  <div *ngFor="let sample of samples">
+
+<div *ngFor="let sample of samples">
   <h3>
-      <a [title]="sample.name + ' details'" [routerLink]="['/products', product.id]">
+      <a [title]="sample.name + ' details'" [routerLink]="[sample.router_string]">
       {{ sample.name }}
     </a>
   </h3>
@@ -9,5 +10,4 @@
   </p>
   
 </div>
-
   

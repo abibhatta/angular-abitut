@@ -8,7 +8,7 @@ import { samples } from '../samples';
   styleUrls: ['./sample.component.css']
 })
 export class SampleComponent implements OnInit {
-
+samples = samples;
   constructor() { }
 
   ngOnInit() {

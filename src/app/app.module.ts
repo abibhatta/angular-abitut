@@ -15,8 +15,7 @@ import { SampleComponent } from './sample/sample.component';
     RouterModule.forRoot([
       { path: '', component: SampleComponent },
       { path: 'product', component: ProductDemoModule }
-    ]),
-    ProductDemoModule
+    ])
   ],
   declarations: [
     AppComponent,
