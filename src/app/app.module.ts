@@ -9,12 +9,14 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { SampleComponent } from './sample/sample.component';
+import { ProductSampleComponent } from './product-sample/product-sample.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
+      { path: '', component: SampleComponent },
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent }
     ])
@@ -25,7 +27,8 @@ import { SampleComponent } from './sample/sample.component';
     ProductListComponent,
     ProductAlertsComponent,
     ProductDetailsComponent,
-    SampleComponent
+    SampleComponent,
+    ProductSampleComponent
   ],
   bootstrap: [
     AppComponent
