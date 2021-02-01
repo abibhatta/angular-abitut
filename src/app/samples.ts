@@ -3,7 +3,7 @@ export const samples = [
     id: 1,
     name: 'Phone demo',
     router_string: 'phones',
-    description: 'Default angular demo impmented as component'
+    description: 'Default angular demo implemented as a feature'
   },
   {
     id: 2,
