@@ -8,7 +8,7 @@ export const samples = [
   {
     id: 2,
     name: 'Survey js demo',
-    router_string: 'surveys',
+    router_string: 'surveyjs',
     description: 'Survey js demo'
   }
 ];
