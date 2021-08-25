@@ -20,10 +20,8 @@ import { ProductSampleComponent } from './product-sample/product-sample.componen
     TopBarComponent,
     ProductListComponent,
     ProductAlertsComponent,
-    ProductDetailsComponent,
+    ProductDetailsComponent
   ],
-  exports: [
-  ProductSampleComponent
-  ]
+  exports: [ProductSampleComponent]
 })
-export class ProductDemoModule { }
+export class ProductDemoModule {}

@@ -6,6 +6,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ProductDemoModule } from './product-demo/product-demo.module';
 import { SampleComponent } from './sample/sample.component';
+import { SurveygenComponent } from './surveygen/surveygen.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { SampleComponent } from './sample/sample.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: SampleComponent },
-      { path: 'phones', component: ProductDemoModule }
+      { path: 'phones', component: ProductDemoModule },
+      { path: 'surveyjs', component: SurveygenComponent }
     ])
   ],
   declarations: [
